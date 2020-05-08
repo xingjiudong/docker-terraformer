@@ -62,3 +62,5 @@ You can also provide no regions when importing resources:
 terraformer import aws --resources=cloudfront --profile=prod
 ```
 In that case terraformer will not know with which region resources are associated with and will not assume any region. That scenario is useful in case of global resources (e.g. CloudFront distributions or Route 53 records) and when region is passed implicitly through environmental variables or metadata service.
+
+* https://github.com/GoogleCloudPlatform/terraformer
